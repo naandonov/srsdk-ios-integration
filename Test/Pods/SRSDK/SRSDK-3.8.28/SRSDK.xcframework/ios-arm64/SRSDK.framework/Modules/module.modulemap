@@ -1,0 +1,11 @@
+framework module SRSDK {
+  umbrella header "SRSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SRSDK.Swift {
+    header "SRSDK-Swift.h"
+    requires objc
+}

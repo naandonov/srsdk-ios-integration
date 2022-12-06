@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Logging (1.4.0)
+  - SRSDK (3.8.28):
+    - Alamofire (= 5.6.2)
+    - Logging
+
+DEPENDENCIES:
+  - SRSDK (= 3.8.28)
+
+SPEC REPOS:
+  https://github.com/sportradar/MobileSDK.git:
+    - SRSDK
+  trunk:
+    - Alamofire
+    - Logging
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  SRSDK: 4ac8e5499894ba873f82ae1cbdc55ee6e55ef178
+
+PODFILE CHECKSUM: 0c21ea5ee51e967527754931e9e58f84bf8f09a5
+
+COCOAPODS: 1.11.3

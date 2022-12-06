@@ -1,0 +1,6 @@
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/sportradar/MobileSDK.git'
+
+target 'Test' do
+  pod 'SRSDK', '3.8.28'
+end
